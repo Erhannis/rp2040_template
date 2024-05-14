@@ -1752,19 +1752,7 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "165cdbca-2789-4b52-8e41-9449e8a4c015")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C415391"
+		(property "LCSC" "C541436"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1776,7 +1764,7 @@
 				)
 			)
 		)
-		(property "MFR" "GJM1555C1H360FB01D"
+		(property "MFR" "CC0402FRNPO9BN360"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1800,11 +1788,12 @@
 				)
 			)
 		)
-		(property "Source" "ANY"
-			(at 0 0 0)
+		(property "URL" "https://jlcpcb.com/partdetail/Yageo-CC0402FRNPO9BN360/C541436"
+			(at 0 0 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0c2029c3-99be-47cd-aee0-202cda126b4d")
+			(uuid "f3c29688-7820-4937-ae1b-37f7b4cd99c7")
 			(effects
 				(font
 					(size 1 1)
@@ -4476,19 +4465,7 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8b4ee58d-0621-4f6b-aa8a-71273c30e322")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C415391"
+		(property "LCSC" "C541436"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4500,7 +4477,7 @@
 				)
 			)
 		)
-		(property "MFR" "GJM1555C1H360FB01D"
+		(property "MFR" "CC0402FRNPO9BN360"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4524,11 +4501,12 @@
 				)
 			)
 		)
-		(property "Source" "ANY"
+		(property "URL" "https://jlcpcb.com/partdetail/Yageo-CC0402FRNPO9BN360/C541436"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dd3b485c-9b2d-4583-b571-40dab9e688bb")
+			(uuid "6dcbb868-0f19-4aab-b480-6fd5a5c23a6d")
 			(effects
 				(font
 					(size 1 1)
@@ -9568,7 +9546,7 @@
 		(uuid "fabd1a51-b806-4c2b-a63f-03f6c9dd4179")
 	)
 	(gr_text "(HASH)"
-		(at 177.8 142.24 0)
+		(at 126.746 85.09 90)
 		(layer "B.SilkS")
 		(uuid "4d146eb8-7b68-491c-b790-f83bd0a2abf2")
 		(effects
@@ -9580,7 +9558,7 @@
 		)
 	)
 	(gr_text "(URL)"
-		(at 177.8 139.7 0)
+		(at 124.206 85.089999 90)
 		(layer "B.SilkS")
 		(uuid "5b3193d7-d17f-4cc3-aa82-bf67796d698a")
 		(effects

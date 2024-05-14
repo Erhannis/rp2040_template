@@ -7351,43 +7351,43 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "ANY"
-			(at 66.675 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Key" ""
-			(at -26.035 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "GJM1555C1H360FB01D"
-			(at 66.675 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C415391"
-			(at 66.675 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Note" "Swapped for 36pF, I'm guessing the parasitic capacitance anyway"
+			(at 66.675 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CC0402FRNPO9BN360"
+			(at 66.675 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C541436"
+			(at 66.675 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 36pF NP0 ±1% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 66.675 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Yageo-CC0402FRNPO9BN360/C541436"
 			(at 66.675 104.14 90)
 			(effects
 				(font
@@ -7539,43 +7539,43 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "ANY"
-			(at 66.675 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Key" ""
-			(at -26.035 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "GJM1555C1H360FB01D"
-			(at 66.675 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C415391"
-			(at 66.675 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Note" "Swapped for 36pF, I'm guessing the parasitic capacitance anyway"
+			(at 66.675 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CC0402FRNPO9BN360"
+			(at 66.675 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C541436"
+			(at 66.675 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 36pF NP0 ±1% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 66.675 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Yageo-CC0402FRNPO9BN360/C541436"
 			(at 66.675 93.98 90)
 			(effects
 				(font
