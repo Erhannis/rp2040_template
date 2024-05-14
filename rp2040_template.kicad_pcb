@@ -1740,7 +1740,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 36pF NP0 ±1% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4453,7 +4453,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 36pF NP0 ±1% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

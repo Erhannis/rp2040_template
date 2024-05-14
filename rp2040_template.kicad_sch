@@ -4,10 +4,6 @@
 	(generator_version "8.0")
 	(uuid "cb1328be-544a-4c60-8dcb-9d63db56fc1e")
 	(paper "A4")
-	(title_block
-		(title "RP2040/FT232H Interface")
-		(comment 1 "For transferring data quickly out of an RP2040")
-	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
@@ -7342,8 +7338,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 66.675 104.14 0)
+		(property "Description" "50V 36pF NP0 ±1% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 66.675 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7370,15 +7366,6 @@
 			)
 		)
 		(property "LCSC" "C541436"
-			(at 66.675 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 36pF NP0 ±1% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 66.675 104.14 90)
 			(effects
 				(font
@@ -7530,8 +7517,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 66.675 93.98 0)
+		(property "Description" "50V 36pF NP0 ±1% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 66.675 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7558,15 +7545,6 @@
 			)
 		)
 		(property "LCSC" "C541436"
-			(at 66.675 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 36pF NP0 ±1% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 66.675 93.98 90)
 			(effects
 				(font
