@@ -1144,6 +1144,175 @@
 				)
 			)
 		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -4095,7 +4264,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 40.64) (xy 89.535 40.64)
+			(xy 92.075 40.64) (xy 104.14 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4385,7 +4554,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 38.1) (xy 89.535 38.1)
+			(xy 92.075 38.1) (xy 104.14 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4775,7 +4944,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 35.56) (xy 89.535 35.56)
+			(xy 92.075 35.56) (xy 104.14 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4825,7 +4994,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 33.02) (xy 89.535 33.02)
+			(xy 92.075 33.02) (xy 104.14 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4945,6 +5114,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 20.32) (xy 78.74 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8755149-5acf-4607-86e4-f36296541035")
+	)
+	(wire
+		(pts
 			(xy 69.215 142.875) (xy 82.55 142.875)
 		)
 		(stroke
@@ -5012,6 +5191,16 @@
 			(type solid)
 		)
 		(uuid "ca9ef1cb-afba-4356-b6ec-e995a1223bac")
+	)
+	(wire
+		(pts
+			(xy 69.85 20.32) (xy 69.85 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb55e377-a2db-4462-b9d1-22d53450ca3a")
 	)
 	(wire
 		(pts
@@ -5243,7 +5432,7 @@
 		)
 		(uuid "f96b6b20-2be1-423e-8f08-5d398d4a05fe")
 	)
-	(text_box "//RAINY Move power and RP2040 into sheets\n//RAINY Ugh, I guess consider moving all the components off the back"
+	(text_box "//RAINY Move power and RP2040 into sheets\n//RAINY Ugh, I guess consider moving all the components off the back\n//RAINY Add power LED, maybe boot/reset button"
 		(exclude_from_sim no)
 		(at 140.335 19.685 0)
 		(size 54.61 10.16)
@@ -5340,7 +5529,7 @@
 		(uuid "04e9ee52-ee42-47ac-a2a7-a83b5fa52a3b")
 	)
 	(label "USB_BOOT"
-		(at 77.47 40.64 0)
+		(at 92.075 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5351,7 +5540,7 @@
 		(uuid "38253d0b-cd9c-454e-ae68-2cbf38e6ca8c")
 	)
 	(label "RP_SWD"
-		(at 77.47 35.56 0)
+		(at 92.075 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5373,7 +5562,7 @@
 		(uuid "5d29d2db-9420-4ed8-8dc1-10cc362c11e2")
 	)
 	(label "~{RESET}"
-		(at 77.47 38.1 0)
+		(at 92.075 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5527,7 +5716,7 @@
 		(uuid "e6d36e86-8dda-445d-b44f-1a2d5fb81d84")
 	)
 	(label "RP_SWCLK"
-		(at 77.47 33.02 0)
+		(at 92.075 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6212,7 +6401,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 89.535 17.145 270)
+		(at 104.14 17.145 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6221,7 +6410,7 @@
 		(fields_autoplaced yes)
 		(uuid "285b331a-539f-4c8f-a542-78d9e35d3347")
 		(property "Reference" "#PWR019"
-			(at 83.185 17.145 0)
+			(at 97.79 17.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6230,7 +6419,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.725 17.145 90)
+			(at 100.33 17.145 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6239,7 +6428,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 89.535 17.145 0)
+			(at 104.14 17.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6248,7 +6437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 89.535 17.145 0)
+			(at 104.14 17.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6257,7 +6446,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 89.535 17.145 0)
+			(at 104.14 17.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6736,6 +6925,72 @@
 			(project "rp2040_template"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49739d05-3123-4c2e-8ce4-2cac1077be86")
+		(property "Reference" "#PWR012"
+			(at 69.85 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bade5b4-73ca-40bb-b017-b36245d48a78")
+		)
+		(instances
+			(project "rp2040_template"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7657,6 +7912,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 69.85 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6123302a-deb2-41a5-a92f-fdd842897c76")
+		(property "Reference" "R4_UM1"
+			(at 66.04 23.9014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "330"
+			(at 68.58 28.702 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 68.072 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 330Ω 0402  Chip Resistor - Surface Mount ROHS"
+			(at 69.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "0402WGF3300TCE"
+			(at 69.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25104"
+			(at 69.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/25847-0402WGF3300TCE/C25104"
+			(at 69.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32f4c7e9-1aea-41b6-9092-dd29b579b004")
+		)
+		(pin "2"
+			(uuid "6edbc5ff-753d-41b6-bab8-f26e1cb967c4")
+		)
+		(instances
+			(project "rp2040_template"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "R4_UM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Memory_Flash:W25Q128JVS")
 		(at 69.215 155.575 0)
 		(unit 1)
@@ -8046,7 +8398,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 89.535 22.225 90)
+		(at 104.14 22.225 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8055,7 +8407,7 @@
 		(fields_autoplaced yes)
 		(uuid "7438b5cf-b96d-4868-afba-8a405620f938")
 		(property "Reference" "#PWR040"
-			(at 93.345 22.225 0)
+			(at 107.95 22.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8064,7 +8416,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 85.725 22.225 90)
+			(at 100.33 22.225 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8073,7 +8425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 89.535 22.225 0)
+			(at 104.14 22.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8082,7 +8434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 89.535 22.225 0)
+			(at 104.14 22.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8091,7 +8443,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 89.535 22.225 0)
+			(at 104.14 22.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9531,7 +9883,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 94.615 35.56 0)
+		(at 109.22 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9540,7 +9892,7 @@
 		(dnp no)
 		(uuid "9cae7432-d266-4521-8d12-c83573da8701")
 		(property "Reference" "J2"
-			(at 93.98 27.94 0)
+			(at 108.585 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9548,7 +9900,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 93.98 30.48 0)
+			(at 108.585 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9556,7 +9908,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 94.615 35.56 0)
+			(at 109.22 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9565,7 +9917,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 94.615 35.56 0)
+			(at 109.22 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9574,7 +9926,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 94.615 35.56 0)
+			(at 109.22 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9583,7 +9935,7 @@
 			)
 		)
 		(property "MFR" "PZ254V-11-04P"
-			(at 94.615 35.56 0)
+			(at 109.22 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9592,7 +9944,7 @@
 			)
 		)
 		(property "LCSC" "C2691448"
-			(at 94.615 35.56 0)
+			(at 109.22 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9834,6 +10186,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 78.74 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a943fb84-ef57-458d-a00d-3e582fea8c93")
+		(property "Reference" "#PWR05"
+			(at 78.74 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 78.74 15.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84df5646-357d-4723-a88f-261b8401a19c")
+		)
+		(instances
+			(project "rp2040_template"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 14.605 191.77 0)
 		(unit 1)
@@ -9894,6 +10312,103 @@
 			(project "rp2040_template"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 69.85 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa250fe0-d294-4fa1-856b-5e22ee72b003")
+		(property "Reference" "D1_UM1"
+			(at 73.66 33.3375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED(R)"
+			(at 73.66 35.8775 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 69.85 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-40℃~+85℃ Red 0603  Light Emitting Diodes (LED) ROHS"
+			(at 69.85 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KT-0603R"
+			(at 69.85 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 69.85 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286"
+			(at 69.85 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "576dfbec-7ebb-4758-ad50-71444820084d")
+		)
+		(pin "2"
+			(uuid "963d7e7a-eb26-4e6d-bc1f-8d5257354725")
+		)
+		(instances
+			(project "rp2040_template"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "D1_UM1")
 					(unit 1)
 				)
 			)
@@ -10380,6 +10895,200 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 78.74 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7130ee3-84d9-458f-aaab-764699062977")
+		(property "Reference" "R5_UM1"
+			(at 74.93 23.9014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "330"
+			(at 77.47 28.702 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 76.962 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 330Ω 0402  Chip Resistor - Surface Mount ROHS"
+			(at 78.74 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "0402WGF3300TCE"
+			(at 78.74 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25104"
+			(at 78.74 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/25847-0402WGF3300TCE/C25104"
+			(at 78.74 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a2c3c4c-8345-424a-97bb-5022c58295cb")
+		)
+		(pin "2"
+			(uuid "6268348e-f3f4-4a92-996a-56fef60b42bf")
+		)
+		(instances
+			(project "rp2040_template"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "R5_UM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 78.74 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7a03bab-0b27-41b5-8087-2d718347a7aa")
+		(property "Reference" "D2_UM1"
+			(at 82.55 33.3375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED(G)"
+			(at 82.55 35.8775 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 78.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "199mcd 无色透明透镜 -40℃~+85℃ 520nm~535nm Emerald 120° 110mW 0603  Light Emitting Diodes (LED) ROHS"
+			(at 78.74 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "19-217/GHC-YR1S2/3T"
+			(at 78.74 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C72043"
+			(at 78.74 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/EverlightElec-19_217_GHC_YR1S23T/C72043"
+			(at 78.74 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f43f3484-2e89-4c30-8736-fa06747345fb")
+		)
+		(pin "2"
+			(uuid "fbebbacf-a462-470c-abf7-a3f163ddea9c")
+		)
+		(instances
+			(project "rp2040_template"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "D2_UM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_RaspberryPi:RP2040")
 		(at 121.92 86.36 0)
 		(unit 1)
@@ -10634,7 +11343,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 89.535 19.685 90)
+		(at 104.14 19.685 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10643,7 +11352,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb119416-6adc-4085-9db9-7986db32155f")
 		(property "Reference" "#PWR020"
-			(at 93.345 19.685 0)
+			(at 107.95 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10652,7 +11361,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 85.725 19.685 90)
+			(at 100.33 19.685 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10661,7 +11370,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 89.535 19.685 0)
+			(at 104.14 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10670,7 +11379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 89.535 19.685 0)
+			(at 104.14 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10679,7 +11388,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 89.535 19.685 0)
+			(at 104.14 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10984,6 +11693,72 @@
 			(project "rp2040_template"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c84c5b86-245e-474e-9195-11e41b55f17e")
+		(property "Reference" "#PWR013"
+			(at 78.74 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a70d67ed-a309-484d-9ce7-eebc42183980")
+		)
+		(instances
+			(project "rp2040_template"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11572,6 +12347,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 69.85 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6d99a7f-1232-48ec-afb7-e30a32ddb16b")
+		(property "Reference" "#PWR06"
+			(at 69.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 69.85 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d49af2e-bfe5-4ebe-8c64-f489b1f74d2d")
+		)
+		(instances
+			(project "rp2040_template"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 124.46 186.055 0)
 		(unit 1)
@@ -11645,7 +12486,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 94.615 19.685 0)
+		(at 109.22 19.685 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11655,7 +12496,7 @@
 		(fields_autoplaced yes)
 		(uuid "eaa0f143-633b-45cc-a358-c59925f32042")
 		(property "Reference" "J1"
-			(at 95.885 18.415 0)
+			(at 110.49 18.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11664,7 +12505,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 95.885 20.955 0)
+			(at 110.49 20.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11673,7 +12514,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 94.615 19.685 0)
+			(at 109.22 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11682,7 +12523,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 94.615 19.685 0)
+			(at 109.22 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11691,7 +12532,7 @@
 			)
 		)
 		(property "Description" "3A Straight Square Pins 2.5mm 3P 6mm -40℃~+105℃ 3mm 2.54mm Plugin Black Brass 1x3P Plugin,P=2.54mm  Pin Headers ROHS"
-			(at 94.615 19.685 0)
+			(at 109.22 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11700,7 +12541,7 @@
 			)
 		)
 		(property "MFR" "12251103CNG0S115001"
-			(at 94.615 19.685 0)
+			(at 109.22 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11709,7 +12550,7 @@
 			)
 		)
 		(property "LCSC" "C429954"
-			(at 94.615 19.685 0)
+			(at 109.22 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11718,7 +12559,7 @@
 			)
 		)
 		(property "URL" "https://jlcpcb.com/partdetail/Jiln-12251103CNG0S115001/C429954"
-			(at 94.615 19.685 0)
+			(at 109.22 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
