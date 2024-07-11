@@ -1062,7 +1062,7 @@
 				)
 			)
 		)
-		(property "Description" "199mcd 无色透明透镜 -40℃~+85℃ 520nm~535nm Emerald 120° 110mW 0603  Light Emitting Diodes (LED) ROHS"
+		(property "Description" "25mA 无色透明透镜 独立二极管 516nm~525nm -30℃~+85℃ Positive post Emerald 120° 80mW 0603  Light Emitting Diodes (LED) ROHS"
 			(at 136 39.2875 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1073,7 +1073,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72043"
+		(property "LCSC" "C965804"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1085,7 +1085,7 @@
 				)
 			)
 		)
-		(property "MFR" "19-217/GHC-YR1S2/3T"
+		(property "MFR" "XL-1608UGC-04"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1097,7 +1097,7 @@
 				)
 			)
 		)
-		(property "URL" "https://jlcpcb.com/partdetail/EverlightElec-19_217_GHC_YR1S23T/C72043"
+		(property "URL" "https://jlcpcb.com/partdetail/Xinglight-XL_1608UGC04/C965804"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
